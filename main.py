@@ -71,6 +71,8 @@ def maiores():
     print(tuplas[0], tuplas[1], tuplas[2],  tuplas[3], tuplas[4])
     
 
+# defini a lista de palavras como Global para as outras funções poderem utiliza-las
+# para não precisar fazer um for dentro de um for dentro de todas as funções.
 global palavras
 entrada = input()
 numero_palavras(entrada)
